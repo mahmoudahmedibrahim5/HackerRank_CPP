@@ -3,6 +3,7 @@
 #include <sstream>
 #include <exception>
 using namespace std;
+
 /* Define the exception here */
 class BadLengthException{
     int n;
@@ -16,7 +17,8 @@ class BadLengthException{
             return n;
         }
 };
-/*Finish*/
+/* End of your code */
+
 bool checkUsername(string username) {
 	bool isValid = true;
 	int n = username.length();
